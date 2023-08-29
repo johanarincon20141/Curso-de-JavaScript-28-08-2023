@@ -1,0 +1,13 @@
+determinar si un objeto tiene una propiedad específica. 
+Es una función integrada en todos los objetos de JavaScript 
+y se utiliza para realizar comprobaciones sobre las propiedades 
+directas del objeto.
+
+Propiedad length:Es importante tener en cuenta que en JavaScript, 
+las propiedades son distintas de los métodos. "length"
+ es una propiedad y no necesita paréntesis 
+cuando se usa para obtener la longitud de un array o string.
+
+
+metodo.pop (quitar los elementos )
+metodo .toUpperCase los ponen en mayusculas
