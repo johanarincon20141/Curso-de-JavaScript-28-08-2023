@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi aprendizaje</title>
+	<script>
+		//comentarios
+		//clase 2 tipos de datos dependiendo su prpopsito dentro del codigo.
+		//undefined=no existe un valor asigando asigando, null= nulo no existe boolean = tipo de dato valores de verdad tru , false,
+		// string= representar cadenas de caracteres, symbol, number = numero representar un numero y object= a una estructura que nos permite reacionar prpiedades. *//
+		//variables
+		var miNombre = "Johana";
+		console.log(miNombre)
+
+		var miApellido = "Rincon";
+		console.log(miApellido);
+		/*asignar el valor de una variable a otra */
+		var a = 1;
+		var b = 2;
+		console.log(a);
+		console.log(b);
+
+		var a = 5;
+		var b = a;
+		console.log(a);
+		console.log(b);
+		/* iniciacion de variables*/
+		var x = 9; // inicializando la variable x
+		var miIdioma = "español";
+		console.log(miIdioma);
+
+		//* variables no inicializadas, quiere decir que no tiene valor*/
+		var a = "Hola, es el valor de a";
+		var b = 45;
+		console.log(a);
+		console.log(b);
+		/* tener cuidado con las mayusculas y minusculas*/
+		var miVariable = "Hola mi Variable";
+		console.log(miVariable);
+
+
+		/*las sumas*/
+		var a = 1 / 8;
+		var body = 8;
+		console.log(a);
+		console.log(b);
+		console.log(a + b);
+
+		/*restas*/
+		var resta = 13 - 2;
+		console.log(resta);
+		var resta = 1 - 12;
+		console.log(resta);
+
+		var resta = 2 - 2;
+		console.log(resta);
+		var resta = 1 - 12;
+		console.log(resta);
+
+		/*producto*/
+		var producto = 7 * 8;
+		console.log(producto)
+		producto = -5 * 6;
+		console.log(producto);
+		/* division*/
+		var cociente = 34 / 4;
+		console.log(cociente);
+		var cociente = 1222299 / 4
+		console.log(producto);
+
+		var producto = 3 / 0;
+		console.log(producto);
+		// numero decimales
+		var miNumeroDecimal = 23.1;
+		var peso = 78.72;
+		// numero decimales multiplicar
+		var producto = 2.4 * 4;
+		console.log(producto);
+		// divison de decimales
+		var cocociente = 5.0 / 2.0;
+		console.log(cocociente);
+		var cocociente = 2.3 / 0.0;
+		console.log(cocociente);
+		/* resto de la division(ojo)=*/
+		var resto = 5 % 1;
+		console.log(resto);
+
+		var resto = 5 % 2;
+		console.log(resto);
+
+		var resto = 5 % 3;
+		console.log(resto);
+
+		var resto = 5 % 4;
+		console.log(resto);
+
+		var LibrosComprados = 105;
+		console.log(LibrosComprados);
+
+		//opcion 
+		// valor actual, y le estamos sumanos 1 incrementando la variable.
+		LibrosComprados = LibrosComprados + 1;
+		console.log(LibrosComprados);
+
+		//opcion2 incrementar el valor  con ++
+		LibrosComprados++;
+		console.log(LibrosComprados);
+
+		//reducir el valor de una variable java / reduce un valor
+
+		var numeroDeEstudiantes = 256;
+		console.log(numeroDeEstudiantes);
+		numeroDeEstudiantes = numeroDeEstudiantes - 1;
+		console.log(numeroDeEstudiantes);
+		numeroDeEstudiantes--;
+		console.log(numeroDeEstudiantes);
+
+		// reducir el valor en otro valor 
+		var a = 23;
+		a = a + 5;
+		console.log(a);
+
+		var a = 23;
+		a += 6;
+		console.log(a);
+
+		//  ejemplo de ventas
+		var totalVentas = 13567.34;
+		console.log(totalVentas);
+		totalVentas += 345.67;
+		console.log(totalVentas);
+
+		// reducir el valor de un varaible
+		var b = 23;
+		b = b - 3;
+		console.log(b);
+
+		var b = 23;
+		b -= 3;
+		console.log(b);
+
+		var totalDeuda = 2446;
+		console.log(totalDeuda);
+
+		totalDeuda -= 345;
+		console.log(totalDeuda);
+
+		//asiganacion de Multiplicacion
+		var c = 23;
+		c = c * 2;
+		console.log(c);
+		var salario = 45000;
+		console.log(salario);
+		salario *= 5;
+		console.log(salario);
+		var d = 39;
+		d = d / 3;
+		console.log(d);
+		var d = 39;
+		d /= 3;
+		console.log(d);
+
+		// ganamos 45000  y se debe hacer recorte de personal.
+		var salario = 45000;
+		console.log("el valo actual es;")
+		console.log(salario);
+		salario /= 2;
+		console.log("el valor incremental es;")
+		console.log(salario);
+
+		var nombre = "soy una cadena de caracteres \"con comillas\"";
+		var apellido = "Rincon";
+		console.log("las comillas son")
+		console.log(nombre);
+		console.log(apellido);
+
+		var miMeta;
+		miMeta = "aprender a programar con \"freedCodeCamp\"";
+		console.log(miMeta);
+		// secuencias de scape \r retorno de carro, \r tabulacion \b retroceso, \f salto de pagina, \n linea nueva
+		console.log("estoy arendiendo : \n java script ");
+		console.log("estoy arendiendo : \f java script ");
+
+		//unir cadenas de caracteres unio de dos cadenas 
+		var nombreCompleto = "Johana" + " Rincon";
+		console.log(nombreCompleto);
+
+		//CADENAS DE VARIABLES
+		var verbo = "programar";
+		var mensaje = "Estoy  aprendiendo en java script con cadenas de variables para  " + verbo;
+		console.log(mensaje);
+		console.log(verbo + mensaje);
+		// encontrar la logitud de una cadena conteo Length
+		var miCadena;
+		miCadena = "JOHANA";
+		console.log("Es la cantidad de espacios de cadena ");
+		console.log(miCadena.length);
+
+		//notacion de cochetes java script
+		var lenguajeDeProgramacion = "Javascritp";
+		/*java script 
+		cadena : javascript
+		indiceces1223456789*/
+		console.log("es el valor del caracter en la posicion 0:");
+		console.log(lenguajeDeProgramacion[0]);
+		//INMUTABILIDAD NO SE PUEDE CAMBIAR, simpre poner console para que muestre el cambio
+
+		var miCadena = "Jola mundo";
+		console.log(miCadena);
+		miCadena = "Hola mundo";
+		console.log(miCadena);
+
+		//notacion de corchetes enesimo caracter
+		var miCadena = "JavaScript"
+		/*java script
+		J A V A S C R I P T
+		0 1 2 3 4 5 6 7 8 9 */
+		console.log(miCadena[0]);
+		console.log(miCadena[1]);
+		console.log(miCadena[2]);
+		console.log(miCadena[3]);
+		console.log(miCadena[4]);
+		console.log(miCadena[5]);
+		console.log(miCadena[6]);
+		console.log(miCadena[7]);
+		console.log(miCadena[8]);
+		console.log(miCadena[9]);
+		console.log(miCadena[10]);
+		/* G R A C I A S A L A V I D A
+			 0 1 2 3 4 5 6 7 8 9 10 11 12 13*/
+		var miCadena = "Gracias A la vida"
+		console.log(miCadena[0]);
+		console.log(miCadena[1]);
+		console.log(miCadena[2]);
+		console.log(miCadena[3]);
+		console.log(miCadena[4]);
+		console.log(miCadena[5]);
+		console.log(miCadena[6]);
+		console.log(miCadena[7]);
+		console.log(miCadena[8]);
+		console.log(miCadena[9]);
+		console.log(miCadena[10]);
+		console.log(miCadena[11]);
+		console.log(miCadena[12]);
+		console.log(miCadena[13]);
+		console.log(miCadena[14]);
+		console.log(miCadena[15]);
+		console.log(miCadena[16]);
+		//notacion de corchetes es mas corto
+
+		/* el ultimo indica siempre es la logitud -1 porque empezamos desde
+ miCadena,length es 10 
+ j A V A S C R I P T
+ 0 1 2  3 4 5 6 7 8 
+ Indices poner siempe length
+ */
+		miCadena = "Javascript";
+		console.log(miCadena[miCadena.length - 5]);
+
+		//NOTACION DE CORCHETES
+		var miCadena = "javascript";
+		console.log(miCadena[miCadena.length - 4]);
+
+
+		//palabras en Blanco.
+		var miSustantivo = "perro";
+		var miAdjetivo = "negro";
+		var miVerbo = "corrio";
+		var miAdeverbio = "rapidamente";
+		console.log("el " + miSustantivo + " " + miAdjetivo + " " + miVerbo + " " + miAdeverbio + "  " + "a la tienda");
+
+		//palabras en Blanco.concatenar las cadenas
+		var miSustantivo = "bicleta";
+		var miAdjetivo = "pequeña";
+		var miVerbo = "volo";
+		var miAdeverbio = "lentamente";
+		console.log("la" + " " + miSustantivo + " " + miAdjetivo + " " + miVerbo + " " + "a la tienda " + " " + miAdeverbio)
+
+		//arreglos estructura de datos multiples valores
+
+		var miArreglo = ["Jhon", 24];
+		console.log(miArreglo);
+		var estudiantes = ["JUNA", "MARIA", "SOL", "LUNA"]
+		console.log(estudiantes);
+
+		var notasExamen = [67, 89, 90, 23, 23, 232];
+		console.log(notasExamen);
+
+	</script>
+	/* variable guardar un espacio en */
+	<script> /*valor de mi variable*/
+		var miVariable = "FreeCodeCamp";
+		console.log(miVariable);
+
+		miVariable = 16;
+		console.log(miVariable);
+
+		miVariable = 10 - 9;
+		console.log(miVariable);
+
+		miVariable = false;
+		console.log(miVariable);
+		miVariable = true;
+		console.log(miVariable);
+
+		miVariable = true;
+		console.log(miVariable);
+		//arreglos anidados, arreglo principal y varios anidados
+		var listaDeEstudiantes = [["Johana ", 89], ["juan", 80], ["liz", 90]];
+		console.log(listaDeEstudiantes);
+
+		var lsitaDePrecios = [["Panela ", 8000], ["mantequilla", 4500, "alm2323"], ["queso", 4000, "alm2320"], ["Arroz", 5000, "alm2321"]];
+		console.log(lsitaDePrecios);
+
+		var datos = [[6.7, 8.0], [7.8, 5.6, 4.5], [9.0, 3.4, 4.0]];
+		console.log(datos);
+		// arreglos de elementos
+		var miArreglo = [10, 20, 30];
+		/*arreglo [10 20 30]
+		indices    0   1  2*/
+		console.log(miArreglo[0]);
+		console.log(miArreglo[1]);
+		console.log(miArreglo[2]); //elementos de la posicion
+		// suma de los arreglos
+		var suma = miArreglo[0] + miArreglo[1] + miArreglo[2];
+		console.log(suma);
+
+		//modificar los datos de un areglo
+		var miarreglo = [20, 20, 30];
+		miArreglo[0] = [2, 23, 33], "arreglo";
+		miArreglo[1] = 1;
+		miArreglo[2] = 200;
+		console.log(miArreglo);
+
+		//arreglos multidimensionales{}
+		var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+		/* Arreglo      [[1,2,3],[4,5,6],[7,8,9]]
+		indices               0        1       2
+		indices internos  0 1 2    0 1 2   0 1 2
+		*/
+		console.log(miArreglo[0]); //tra el arreglo del indice
+		console.log(miArreglo[1]);//trae el arreglo del indice
+		console.log(miArreglo[2]);//trae el arreglo del indice
+
+		console.log(miArreglo[1][1]);//trae el indice con un arreglo
+		console.log(miArreglo[2][2]);
+		console.log(miArreglo[1][1]);
+		console.log(miArreglo[0][0]);
+		console.log(miArreglo[0][0]);
+		console.log(miArreglo[0][1]);
+		console.log(miArreglo[0][2]);
+
+		console.log(miArreglo[1][0]);
+		console.log(miArreglo[1][1]);
+		console.log(miArreglo[1][2]);
+		console.log(miArreglo[2][0]);
+		console.log(miArreglo[2][1]);
+		console.log(miArreglo[2][2]);
+
+		//Estructura De datos muy poderosos arreglos - push empujar
+		var estaciones = ["Invierno", "otono", "primavera"];
+		estaciones.push = ["verano"]; //metodos especificos anadir un elmento alfinal de la regla
+		console.log[estaciones];
+
+
+		var estaciones = ["Invierno", "otono", "primavera"];
+		estaciones.unshitf = ["verano"]; //agregar al principio del arreglo
+		console.log[estaciones];
+
+		/// remover el ultimo metodo con Pop
+		var estaciones = ["invierno", "verano", "primavera"];
+		estaciones.pop();
+		console.log(estaciones);
+		//0tra manera de hacerlo es:
+		var estaciones = [" Invierno", "verano", "primavera"];
+		estacion = estaciones.pop();
+		console.log(estaciones);
+		console.log(estacion);
+
+		//shift permite remover elemento del arreglo shift en la posicion 0
+		var estaciones = [" Invierno", "verano", "primavera"];
+		estaciones.shift();
+		console.log(estaciones);//remueve el primer elemento del arreglo
+
+		//agregar un elemto a principio del arreglo
+		var estaciones = [" Invierno", "verano", "primavera"];
+		estaciones.unshift("verano al inicio ");//agregar a principop
+		console.log(estaciones);
+		/*push anade al fina de la cadena
+		 .pop remueve el ultimo valor de cadena al arreglo 
+		 shift = remueve el primer elmento del arreglo, 
+		 unshift agrega un elemento al inicio del arreglo.*/
+
+		//lista de compras en java script
+		//arreglos anidados
+		var listaDeCompras = [["Ceral", 3], ["leche", 2], ["galletas", 4], ["pan, 5"], ["refresco", 4,], ["pollo", 7]];
+		/*  
+		arreglo  ceral 3
+							 0   1  
+									  
+		indices ceral 3
+							0 
+		indices internos  ceral 3
+												 0  1   
+	  
+		*/
+		//cereal
+		console.log("Voy a comprar  " + listaDeCompras[0]);
+		//leche
+		console.log("voy a comprar " + listaDeCompras[1]);
+		//galletas
+		console.log("voy a comprar " + listaDeCompras[2]);
+		//pan
+		console.log("voy acomprar " + listaDeCompras[3]);
+
+		//refresco
+		console.log("voy a comprar  " + listaDeCompras[4]);
+		//pollo
+		console.log("voy a comprar " + listaDeCompras[5]);
+
+
+		//funciones programas mas estructurados funciones reutilizar en el programa
+		function mostrarMensaje() {
+			console.log("Hola, mundo es  Ejemplo de funcion ");
+		}
+		mostrarMensaje();
+		mostrarMensaje();
+		mostrarMensaje();
+
+		//funcion codigo reutilizable.
+		function sumar(a, b) {//parametros son ab y argumnetos
+			var suma = a + b;
+			console.log("el resultado de " + a + " + " + b + " es  :" + suma);
+
+		}
+		sumar(3, 9);// tener en cuenta que se debe dejar por fuera del corchete soma de dos numeros
+		sumar(1, 9);
+		sumar(2, 9);
+		sumar(9, 9);
+
+		//fuciones concatenar 
+		function concatenarTresCadenas(cadena1, cadena2, cadena3) {
+			console.log(cadena1 + " " + cadena2 + " " + cadena3);
+		}
+		concatenarTresCadenas("estoy ", "aprendiendo", "a programar");
+
+
+		//variables global- se puede usar en cualquier parte del programa
+
+		// variables locales para una fucion
+		function miFuncion() {
+			var miVariableLocal = 4;
+			console.log(miVariableLocal);
+
+		}
+		miFuncion();
+
+		// Local
+		var miNombre = "Nora";//variable global la puedes llamar cuando quieras
+		function mostrarMiNombre() {
+			var miNombre = "Ginaa";//tiene prioridad la variable local.
+			console.log(miNombre);
+		}
+		mostrarMiNombre();
+		console.log(miNombre);
+
+		//retornar un valor  las funciones
+
+		function sumar(a, b) {
+
+			return a + b;
+		}
+		console.log(sumar(3, 2));
+
+		// undefied retornar un valor
+		function sumar(a, b) {
+			console.log(a + b);
+			return a + b;//si quitamos el return sale error undefied
+
+		}
+		console.log(sumar(2, 2));
+
+		/// retornar un valor a un avariable
+		function sumar(a, b,) {
+			return a + b;
+
+		} var resultado = sumar(12, 2,);
+		console.log(resultado);
+		//cadena de caracteres
+		function crearCadenaConMeta(lenguajeDeProgramacion) {
+			return "mi meta es aprender " + lenguajeDeProgramacion;
+		}
+		var miMeta = crearCadenaConMeta("javascript");
+		console.log(miMeta);
+
+		///cola agregar elemtos a una fila ´proximo en la fila
+		function proximoEnLaFila(arreglo, elemento) {
+			arreglo.push(elemento);//agregar al final del arreglo
+			arreglo.shift(); //remover el primer elemento 
+			return arreglo.shift(); //remover el primer element0
+
+		}
+
+		var miArreglo = [1, 2, 3, 4, 5];
+		console.log("antes:" + JSON.stringify(miArreglo));
+		console.log(proximoEnLaFila(miArreglo, 9));
+		console.log("despues" + JSON.stringify(miArreglo));
+
+		//valores Booleanos verdader falso true
+		console.log(true);
+		//operador de igualdad
+		console.log(5 == 5);
+		console.log("hola" == "hola");
+		console.log([1, 2, 3] == [1, 2, 3]);//no funciona para arreglos
+		// operador de igual estricta
+		console.log(1 == 1);
+		console.log(9 == "9");//dato comun
+		console.log(9 === 9);
+		console.log(9 === "9");//no aplica debe ser iguales
+		//Comprar valores
+		var a;
+		var b;
+		// contextos valor escrito de verdad
+		a = 3;
+		b = 5;
+		console.log(a == b);//verdadero
+		console.log(a === b);
+		var a;
+		var b;
+
+		a = "j";
+		b = "j";
+		console.log(a == b);
+		console.log(a === b);
+
+		//operador de desigualdad:
+		console.log(9 != 6);
+		console.log(1 != 1);
+		console.log("java" != "java");
+		//desigualdad escricta
+		console.log(1 != "1");//true
+		console.log(1 !== "1"); //false
+
+		//operadar mator que
+		console.log(33 > 3);
+		console.log(1 > 3);//false
+		// 
+		console.log("B" > "A");// true
+		console.log("ACB" > "ABC"); // true
+		console.log("AB" > "A"); // True
+		console.log("mundo" > "hola");//true
+		console.log("M" > "H");// true
+		var a = 15;
+		var b = 7;
+		console.log(a > b);
+		// mayor 0 = que 
+		var a = 2;
+		var b = 2;
+		console.log(a >= b);
+		// menor que
+		console.log(5 < 6);
+		console.log(10 < 3);
+		// caracteres con el signo menor de comparacion
+		console.log("A" < "B");
+		console.log("ABC" < "ACB");
+
+		var a = 12;
+		var b = 3;
+		console.log(a < b);
+		console.log(b < a);
+
+		//<= menor o igual que
+		console.log(2 < 2); // false
+		console.log(2 <= 2);
+		// operadores logicos AND
+		/* X Y X&&Y
+			 T T T
+			 T F F
+			 F T F
+			 F F F 
+		*/
+		var a = 8;
+		console.log((a > 5)) && ((a < 10));// 
+		// a menor de 10
+		var a = 3;
+		console.log((a > 5)) && ((a < 10));// 
+		//
+		var a = 15;
+		console.log((a > 5)) && ((a < 10));// 
+		//
+		var a = 1;
+		console.log((a > 5)) && ((a < 10));// false
+
+		// operador OR Si uno es verdadero  todos son verdadederos
+		/*
+		x  y x||y
+		T  T   T
+		T  F   T
+		F  T   T
+		F   F  F
+		*/
+
+		console.log(true || true);
+		console.log(true || false);
+		console.log(false || true);
+		console.log(false || false);
+		//
+		var a = 8;
+
+		console.log((a < 5) || (a > 15));// true
+
+		//
+		var a = 20;
+		console.log((a < 5) || (a < 15));// false
+
+		/*Operador logico Not
+	  
+		para !x
+		T = FALSE
+		F= TRUE
+		*/
+		console.log(!true);//false
+		console.log(!false); // true 
+		var a = 8;
+		//!(a>5)--true-->false
+		console.log(!(a > 5));
+		//!(a<5)-->!false -->true
+		console.log(!(a < 5));
+
+		// Condicionales Permite decidir si un boque de codigo se ejecuta.
+		if (true) {
+			console.log("la condiccion es de verdadera");
+		}
+		var x = 55;
+		if (x > 2) {
+			console.log("la condiccion es de verdadera");
+		}
+		console.log("false");
+
+		//
+		var estacion = "invierno";
+		if (estacion == "invierno") {
+			console.log("!si¡ Me encanta el invierno");
+
+			console.log("despues del condicional if(){}")
+			// condiciones falsas
+			if (true) {
+				console.log("la condicion es verdadera")
+			} else {
+				console.log("la condicion es false");
+
+			}
+			// ejemplo de if else 
+			var estacion = "invierno";
+			if (estacion == "invierno") {
+				console.log("comenzo el verano ya podemos ir a la playa");
+
+			} else {
+				console.log("es invierno no puedes ir a la playa");
+			}
+
+		}
+
+		// else if condiciones alterntivas 
+		function esDivisibleEntreDosOEntreTres(valor) {
+			if (valor % 2 === 0) {
+				console.log("divisible entre 2 ");
+			} else if (valor % 3 === 0) {
+				console.log("divisible entre 3");
+			} else {
+				console.log("no es divisible entre las opciones")
+			}
+		}
+		esDivisibleEntreDosOEntreTres(7);//parametros
+		//esDivisibleEntreDosOEntreTres(15);
+		//esDivisibleEntreDosOEntreTres(7);
+		//condicional- clausulas
+		function clasificarValor(valor) {
+			if (valor < 5) {
+				console.log("es menor que 5.");
+			} else if (valor < 10) {
+				console.log("menor que 10");
+			} else {
+				console.log("mayor o igual a 10");
+			}
+
+		}
+		clasificarValor(7);
+
+		// 
+		function clasificarValor(valor) {
+			if (valor <= 4) {
+				console.log("el numero es menor a 4  ");
+			}
+			else if (valor <= 3) {
+				console.log("el numero  es mayor a 3");
+
+			} else {
+				console.log("el numero no esta dentro del parametro");
+			}
+		}
+		clasificarValor(5);
+
+
+		function valor(parametro) {
+			if (parametro === 0) {
+
+			} else if (parametro === 2) {
+
+			} else {
+				if (parametro == "casa") {
+					if (parametro == "perro") {
+
+					}
+				}
+			}
+		}
+	</script>
+</head>
+</body>
+</html>

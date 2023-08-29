@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //arreglos multidimensionales anidados
+        var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+        /*
+        arrego:          [[1,2,3],[4,5,6],[7,8,9]];
+        indice:              0        1       2
+        indices internos:  0 1 2   0 1 2   0 1  2 
+        */
+        console.log(miArreglo[0]);//[1,2,3]
+        console.log(miArreglo[1]);//[4,5,6]
+        console.log(miArreglo[2]);//[7,8,9]
+        //arreglo anidado el numero6
+        console.log(miArreglo[1][2]);//traer el 6
+        console.log(miArreglo[2][1]);// trae el 8
+        console.log(miArreglo[0][0]);//trae 1
+        console.log(miArreglo[0][1]);//trae 2 
+        console.log(miArreglo[0][2]);// traer el 3
+        console.log(miArreglo[1][0]);// traer el 4
+        console.log(miArreglo[1][1]);// traer el 5
+        console.log(miArreglo[1][2]);// traer el 6
+        console.log(miArreglo[2][0]);// traer el 7
+        console.log(miArreglo[2][1]);// traer el 8
+        console.log(miArreglo[2][2]);// traer el 9
+    </script>
+</body>
+
+</html>

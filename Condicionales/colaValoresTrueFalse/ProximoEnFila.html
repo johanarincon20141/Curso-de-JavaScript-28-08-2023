@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ProximoEnLaFila(arreglo, elemento){
+            arreglo.push(elemento);//agregar al final 
+            return arreglo.shift();//elimina el primer elemento
+            
+        }
+        var miArreglo=[1,2,3,4,5];
+        console.log ("antes ;" + JSON.stringify(miArreglo));
+        console.log(ProximoEnLaFila(miArreglo,67));//EL VALOR QUE VA A INGRESAR DE ULTIMAS 
+        console.log ("despues "+ JSON.stringify(miArreglo));
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var miVariableGlobal=5;// se puede usar en cualquier parte del programa
+        console.log(miVariableGlobal);//llamado 1 al numero 5 
+        function miFuncion(){
+        console.log(miVariableGlobal);//llamdo 2 al numero 5
+        }
+        miFuncion ();
+        console.log(miVariableGlobal);// llamado 3 al numero 5
+    </script>
+</body>
+</html>
